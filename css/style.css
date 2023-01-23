@@ -1,0 +1,119 @@
+/* Author: Sabarinath G */
+
+.main {
+    display: flex;
+    /* height:100vh; */
+    flex-shrink: 0;
+}
+
+.nav img {
+    width: 150px;
+}
+
+.nav p {
+    text-align: center;
+}
+
+.nav {
+    border-right: solid rgb(98, 243, 248) 1px;
+    padding: 5px;
+    background-color: rgb(230, 249, 252);
+    width: 150px;
+}
+.nav a {
+    display: block;
+    text-decoration: none;
+    line: height 2px;
+}
+
+/* 
+.article h1{
+    top: -75px;
+    position: relative;
+}  */
+
+.aside {
+    border: solid 2px black;
+    height: fit-content;
+    padding: 5px;
+    width: 30%;
+    font-size: 15px;
+    position: relative;
+    bottom: -80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* .article h1{
+    top: -100px;
+    position: relative;
+    width: 60%;
+    right: -130px; */
+
+.content {
+    padding: 10px;
+    /* padding: 5px; */
+    line-height: 2;
+}
+
+.article {
+    width: 100%;
+    display: flex;
+}
+
+.article h1 {
+    width: 75%;
+    margin: 0;
+}
+
+.aside p {
+    margin-top: 0;
+}
+
+.x {
+    display: flex;
+    justify-content: space-between;
+}
+
+th {
+    text-align: start;
+    width: 100px;
+}
+
+.first {
+    position: relative;
+    background-image: linear-gradient(to bottom, white, rgb(206, 231, 255));
+}
+
+.second {
+    position: absolute;
+    right: 0;
+    display: inline;
+    /* background-image: linear-gradient(to bottom, white, rgb(206, 231, 255)); */
+}
+
+.content-sub {
+    border: solid;
+    width: 30%;
+}
+
+.third {
+    background-image: linear-gradient(to bottom, white, rgb(206, 231, 255));
+}
+
+footer {
+    margin-left: 160px;
+    border-top: solid rgb(98, 243, 248) 1px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
